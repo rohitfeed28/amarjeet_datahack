@@ -43,8 +43,12 @@ Prediction and Submission
 
 After validating the model, predictions were made on the test set. The probabilities of receiving the xyz and seasonal vaccines were calculated for each respondent. These predictions were formatted according to the submission_format.csv and saved as a submission file.
 
+
 Results
+
 The project's final output is a CSV file containing respondent IDs along with their predicted probabilities for receiving the xyz and seasonal vaccines. The submission file adheres to the required format, ensuring compatibility with the evaluation system.
 
+
 Conclusion
+
 This project successfully demonstrates a structured approach to solving a multilabel classification problem using machine learning techniques. By carefully preprocessing the data, employing a robust model, and validating the results, the project provides reliable predictions for the likelihood of individuals receiving the xyz and seasonal vaccines. The use of the ROC AUC score as the evaluation metric ensures that the model's performance is measured accurately, contributing to effective decision-making in public health interventions.
